@@ -1,8 +1,8 @@
 
 
-Make sure your _/etc/monit.conf_ file imports from this directory:
+Make sure your `/etc/monit.conf` file imports from this directory:
 
-```
+```shell
 # Include all files from /etc/monit.d/
 include /etc/monit.d/*
 ```
@@ -11,7 +11,7 @@ Requires a tiny bit of modification depending on Linux flavor.
 
 ## Groups
 
-```
+```shell
 # Simple resource monitoring
 # --------
 # You may globally manage these from the command line without affecting
